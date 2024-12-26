@@ -1,0 +1,13 @@
+
+# Setting up coding environment
+conda create -n snowpark python=3.8
+
+conda activate snowpark
+
+conda deactivate
+
+# print working directory
+pwd
+
+# in CLI
+snowsql -a YCRLAWX-MW39280
