@@ -1,0 +1,7 @@
+version: '2.30'
+services:
+  ubuntuimage:
+    container_name: myubuntu
+    build:
+      context: .
+      dockerfile: Dockerfile
